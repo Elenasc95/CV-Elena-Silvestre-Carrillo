@@ -1,0 +1,149 @@
+
+/*selector por etiqueta*/
+
+body {
+    background-color: #ffffffd8; font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+}
+
+header{
+    text-align: center;
+}
+dl{
+    margin: 0px auto;
+    font-size: smaller;
+    display: table;  
+    margin-left: 685px;
+}
+
+p{
+    margin: 0px auto;
+    display: table;
+    margin-left: 615px;
+    font-size: smaller;
+    color: darkgrey;
+    font-weight: lighter;
+}
+
+input{
+    text-align: center;
+}
+
+textarea{
+    text-align: center;
+}
+/*selector por clase*/
+.imagenfondo{
+    background-image: url("./fotos/yocopia222.jpg");
+    background-repeat: no-repeat; 
+    width: 700px;
+    background-position-x: -115px;
+    background-position-y: 00px;
+}
+
+.cv {
+    margin: 0px auto;
+    font-size: smaller;
+    display: table;
+}
+
+.boton a {
+    background-color: #5086b0; 
+    color: #ffffff;
+    text-decoration: none; 
+    text-transform: uppercase;
+    padding: 8px;
+    border-radius: 50px; 
+    z-index: 100;
+    margin: 20px;
+    font-size: small;
+}
+
+.boton a:hover{
+    background-color: #e0ba3d; 
+    color: #ffffff;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: small;
+    font-family: 'Helvetica', sans-serif;
+    padding: 15px;
+    border-radius: 50px; 
+}
+
+.nomueve {
+    position: fixed;
+    top: 0px;
+    padding: 40px;
+    width: 100%;
+
+}
+
+.encabezado{
+    margin: 0px auto;
+    padding-right: 400px;
+    margin-left: 395px;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;  
+}
+
+.encabezado2{
+    margin: 0px auto;
+    padding-right: 400px;
+    margin-left:490px;
+    color:rgb(255, 255, 255);
+    font-weight: lighter; 
+    margin-top: 117px;
+}
+
+.encabezado3{
+    margin-left: 580px;
+}
+ .fotos{
+    width: 1222px;
+    margin-left: 150px;
+    position: center;
+ }
+
+ .imagenes1{
+    width: 300px;
+ }
+ .imagenes2{
+    width: 600px;
+ }
+
+ .imagenes3{
+    width: 240px;
+ }
+
+ .imagenes4{
+    height: 451px;
+ }
+ 
+ .iconos2{
+     height: 40px;
+     width: 40px;
+     margin: 10px;
+     margin-left: 300px;
+ }
+ 
+ .label{
+    margin: 0px auto;
+    display: table;
+    margin-left: 615px;
+    font-size: smaller;
+    color: darkgrey;
+    font-weight: lighter;
+}
+
+.label2{
+    margin-left: 615px;
+    font-size: smaller;
+    font-weight: 200;
+    border-color: black;
+    border-width: 0.5px;
+}
